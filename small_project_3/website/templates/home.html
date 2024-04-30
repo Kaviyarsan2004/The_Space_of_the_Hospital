@@ -45,6 +45,16 @@
   ul li {
       margin-bottom: 10px;
   }
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 20px;
+  }
+  .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
 </style>
 </head>
 <body>
@@ -54,7 +64,9 @@
 </header>
 
 <main>
-  <img src="{% static 'images/head_img.jpg' %}" alt="Film Logo">
+  <div class="container">
+    <img src="https://resizing.flixster.com/XYNEqQigGG5ZZx4f7cwg-U-as08=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p188068_v_h8_ab.jpg" alt="Description of the image"  style="color: #fff; padding: 10px; margin: 0 auto; width: 900px; height: 500px; display: block;">
+    </div>
   <h2>Introduction:</h2>
   <p>
     "The Necessities of Life" (French: Ce qu'il faut pour vivre) is a 2008 Canadian drama film directed by Benoît Pilon and starring Natar Ungalaaq, Éveline Gélinas, and Paul-André Brasseur. Told in both French and Inuktitut, the film is about an Inuit man who is sent to Quebec for tuberculosis treatment.
@@ -63,6 +75,33 @@
 
   <h2>Synopsis:</h2>
   <p>In the midst of a tuberculosis outbreak, Tiivii, an Inuit man from Baffin Island, is sent to a sanatorium in Quebec City for treatment. There, he encounters a French Canadian nurse named Carole, and befriends an orphaned boy named Kaki. As Tiivii struggles with the language barrier, cultural differences, and his illness, he forms a unique bond with Carole and Kaki, navigating the complexities of human connection amidst adversity.</p>
+
+  <div class="container">
+    <h2>Bodies and Illness</h2>
+    <p>In 1952, a tuberculosis epidemic is sweeping Northern Canada, and numerous Inuit are compelled by the government to seek treatment in the lower provinces.</p>
+    <p>Tivii arrives at a sanatorium in Quebec City, separated from his family and thrust into a world of medical intervention and isolation.</p>
+    <p>The film portrays the physical toll of illness on Tivii's body, as well as the emotional strain of being separated from his home and community.</p>
+
+    <h2>Healing and Adaptation</h2>
+    <p>Tivii struggles with the language barrier and cultural differences in the hospital environment, but finds solace in unexpected connections with fellow patients and caregivers.</p>
+    <p>Through the support of Carole, a French Canadian nurse, and Kaki, a young orphan who becomes his translator and friend, Tivii begins to adapt to his new surroundings and find hope for recovery.</p>
+    <p>The film explores themes of resilience and adaptation as Tivii learns to navigate the unfamiliar world of the hospital and find meaning and purpose in his journey toward healing.</p>
+
+    <h2>Hospital Environment</h2>
+    <p>The hospital setting serves as a stark contrast to Tivii's home in the Arctic, with its sterile corridors and bustling activity.</p>
+    <p>The film depicts the challenges of navigating the complex healthcare system and the isolation experienced by patients separated from their families and communities.</p>
+    <p>Despite the unfamiliarity of his surroundings, Tivii finds moments of connection and humanity in the hospital, forging bonds with fellow patients and caregivers that transcend language and cultural barriers.</p>
+  </div>
+  <div class="container">
+    <h2>Exploring Narratives of Displacement and Healing</h2>
+    <p>In the film "The Necessities of Life," we witness the profound impact of displacement and illness on the protagonist, Tivii.</p>
+    <p>Similar to the experiences documented in the narratives of Inuit individuals affected by tuberculosis, Tivii is forcibly separated from his home and community to seek treatment in a distant sanatorium.</p>
+    <p>The hospital environment, depicted as a stark contrast to Tivii's familiar surroundings, becomes a site of isolation and cultural disconnection.</p>
+    <p>Yet, amidst the challenges of language barriers and cultural differences, Tivii finds unexpected sources of healing and resilience in the connections he forms with fellow patients and caregivers.</p>
+    <p>Through the support of individuals like Carole, a French Canadian nurse, and Kaki, a young orphan who becomes his translator and friend, Tivii begins to navigate his new reality and find hope for recovery.</p>
+    <p>"The Necessities of Life" underscores the importance of storytelling as a means of processing trauma and reclaiming one's sense of identity and belonging.</p>
+    <p>Join us in exploring the themes of displacement, trauma, and healing as depicted in this powerful film, and discover the resilience of the human spirit in the face of adversity.</p>
+  </div>
 
   <h2>Key Details:</h2>
   <ul>
@@ -93,6 +132,25 @@
    <div class="video-container">
        <iframe width="760" height="415" src="https://www.youtube.com/embed/xiaO8fDVnKc" frameborder="0" allowfullscreen></iframe>
    </div>
+
+   <h2>Pics from movie</h2>
+   <div class="container gallery">
+    <!--<img src="{% static 'path_to_your_image.jpg' %}" alt="Description of the image">-->
+     <img src="https://m.media-amazon.com/images/M/MV5BNzc3MmFjZTEtNjI4YS00MGJiLThkNzUtZWNkYzAyNjBmYjNiXkEyXkFqcGdeQXVyNTA1NDY3NzY@._V1_.jpg" alt="Description of the image">
+     <img src="https://static1.showtimes.com/gallery/540x286/the-necessities-of-life-67644.jpg" alt="Description of the image">
+     <img src="https://m.media-amazon.com/images/M/MV5BMTU0ODAxMjgzM15BMl5BanBnXkFtZTcwNzUyODU5NA@@._V1_FMjpg_UX2160_.jpg" alt="Description of the image">
+     <img src="https://m.media-amazon.com/images/M/MV5BMTQ0MTc1ODYzNF5BMl5BanBnXkFtZTcwNTYyODU5NA@@._V1_FMjpg_UX2160_.jpg" alt="Description of the image">
+     <img src="https://resizing.flixster.com/F8m03r4Pf1jqT3eas0E-vFU3AeY=/fit-in/1152x864/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p188068_i_h9_aa.jpg" alt="Description of the image">
+     <img src="https://static1.showtimes.com/gallery/540x286/the-necessities-of-life-67648.jpg" alt="Description of the image">
+     <img src="https://static2.showtimes.com/gallery/540x286/the-necessities-of-life-67643.jpg" alt="Description of the image">
+     <img src="https://static1.showtimes.com/gallery/540x286/the-necessities-of-life-67646.jpg" alt="Description of the image">
+     <img src="https://static2.showtimes.com/gallery/540x286/the-necessities-of-life-67645.jpg" alt="Description of the image">
+     
+
+
+
+    <!--<img src="{% static 'path_to_your_image.jpg' %}" alt="Description of the image">-->
+  </div>
 
   <h2>Production:</h2>
   <p>When director Benoît Pilon read Bernard Émond's screenplay, he wanted Inuit actor Natar Ungalaaq as the lead role after seeing him in the Inuit film Atanarjuat: The Fast Runner. Ungalaaq read the screenplay, and found the story personal as his real-life grandfather was diagnosed with tuberculosis during the historical epidemic in the 1950s. He did not disclose this story to the media until after the film was complete. For his role as Kaki, Paul-André Brasseur, who lived in Montreal and spoke French, learned his Inuktitut lines with Ungalaaq's aid.
